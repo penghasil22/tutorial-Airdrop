@@ -1,0 +1,17 @@
+Tutor push lv di discord
+
+Pakai termux
+
+1. apt update
+2. apt upgrade -y
+3. pkg install git -y
+4. pkg install python3 -y
+5. pkg install nano -y
+6. gitclone https://github.com/vsec7/DiscordSelfbot
+7. cd DiscordSelfbot
+8. pip install -r requirements.txt
+9. nano config.yaml ( kamu edit token discord & channel id & delay berapa ( channel id yang digunakan adalah yang belakang sendiri.
+Contoh : https://discord.com/channels/10945700118191885005/10949017458950307999 , yang digunakan adalah 10949017458950307999 )
+10. Setelah selesai edit pencet CTRL + Y enter
+11 . Running dengan commands python bot.py
+12. Done
